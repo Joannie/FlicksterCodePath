@@ -13,6 +13,8 @@ import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
 
+import java.util.ArrayList;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import jp.wasabeef.picasso.transformations.RoundedCornersTransformation;
@@ -26,11 +28,17 @@ public class MovieAdapter extends BaseAdapter {
 
     private Context context;
     private Movie data;
+    private ArrayList<Movie> movies;
     private static final String TAG = "MovieAdapter";
 
-    public MovieAdapter(Context mContext, Movie mData) {
+    public MovieAdapter(Context mContext, ArrayList<Movie> mMovie) {
+
         this.context = mContext;
-        this.data = mData;
+        this.movies = mMovie;
+
+        for(int i=1; i< mMovie.size(); i++){
+            data = mMovie.get(i);
+        }
     }
 
 
@@ -96,7 +104,7 @@ public class MovieAdapter extends BaseAdapter {
             }else{
                 holder.title.setText(data.getResults().get(position).getOriginalTitle());
                 holder.overview.setText(data.getResults().get(position).getOverview());
-                Picasso.with(context).load(data.getResults().get(position).getPostPath())
+                Picasso.with(context).load(data.getResults().get(position).getBackdropPath())
                         .transform(new RoundedCornersTransformation(10, 10))
                         .into(holder.imagePoster);
             }

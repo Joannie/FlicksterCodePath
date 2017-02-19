@@ -67,7 +67,7 @@ public class MovieActivity extends AppCompatActivity {
 
     private void setList(){
         listView = (ListView) findViewById(R.id.movieListView);
-        adapter = new MovieAdapter(this, movies.get(0));
+        adapter = new MovieAdapter(this, movies);
         listView.setAdapter(adapter);
     }
 }

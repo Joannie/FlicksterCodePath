@@ -15,7 +15,7 @@ import butterknife.ButterKnife;
 public class MovieDetailsActivity extends YouTubeBaseActivity {
 
     private String apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed";
-    private String youtube_url;
+    private String api_url;
 
 
     @Override
@@ -37,18 +37,22 @@ public class MovieDetailsActivity extends YouTubeBaseActivity {
 
         int movieID = getIntent().getIntExtra("movieID", 0);
 
-        youtube_url = String.format("https://api.themoviedb.org/3/movie/%s/videos?api_key=%s&language=en-US"
+        api_url = String.format("https://api.themoviedb.org/3/movie/%s/videos?api_key=%s&language=en-US"
                 ,Integer.toString(movieID), apiKey);
+
+        //OkHttpClient client = new OkHttpClient();
+        //okhttp3.Request request = new okhttp3.Request.Builder().url(api_url).build();
 
 
         Log.d("DEBUG", Double.toString(getIntent().getDoubleExtra("voteRate", 0.0)));
 
+        //Log.d("DEBUG", youtube_url);
         YouTubePlayerView youTubePlayerView = (YouTubePlayerView) findViewById(R.id.player) ;
-        youTubePlayerView.initialize(youtube_url,
+        youTubePlayerView.initialize(apiKey,
                 new YouTubePlayer.OnInitializedListener() {
                     @Override
                     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
-                        youTubePlayer.cueVideo("FkAndUJpyX0");
+                        youTubePlayer.cueVideo("TMsmN-U0gk0");
                     }
 
                     @Override

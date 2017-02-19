@@ -32,7 +32,9 @@
         android:id="@+id/ratingBar"
         android:layout_below="@+id/text_title"
         android:paddingBottom="10dp"
-        style="?android:attr/ratingBarStyle"/>
+        android:theme="@style/RatingBar"
+        android:isIndicator="true"
+        android:numStars="8"/>
 
     <TextView
         android:layout_width="match_parent"
