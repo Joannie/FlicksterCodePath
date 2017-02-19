@@ -1,4 +1,4 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *Flickster CodePath Assignment(Week 1)*
 
 **Flickster** shows the latest movies currently playing in theaters. The app utilizes the Movie Database API to display images and basic information about these movies to the user.
 
@@ -39,7 +39,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+![alt tag](https://www.dropbox.com/home/codepath_gif?preview=Flicksters.gif)
+
+
+<img src='https://www.dropbox.com/home/codepath_gif?preview=Flicksters_lands.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
