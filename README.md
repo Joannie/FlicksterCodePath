@@ -39,10 +39,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![alt tag](https://www.dropbox.com/home/codepath_gif?preview=Flicksters.gif)
+<img src='https://cloud.githubusercontent.com/assets/5563183/23119206/341a53e6-f792-11e6-8722-ada612daf642.png' title='Video Walkthrough' height="400" alt='Video Walkthrough' />
 
-
-<img src='https://www.dropbox.com/home/codepath_gif?preview=Flicksters_lands.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://cloud.githubusercontent.com/assets/5563183/23119188/24db04de-f792-11e6-8c87-060fe11dc9e0.png' title='Video Walkthrough' height="200" alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
