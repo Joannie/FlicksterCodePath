@@ -39,9 +39,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://cloud.githubusercontent.com/assets/5563183/23119206/341a53e6-f792-11e6-8722-ada612daf642.png' title='Video Walkthrough' height="400" alt='Video Walkthrough' />
+<img src='https://cloud.githubusercontent.com/assets/5563183/23119513/8ea97610-f793-11e6-967c-7825e9b5976d.gif' title='Video Walkthrough' height="400" alt='Video Walkthrough' />
 
-<img src='https://cloud.githubusercontent.com/assets/5563183/23119188/24db04de-f792-11e6-8c87-060fe11dc9e0.png' title='Video Walkthrough' height="200" alt='Video Walkthrough' />
+<img src='https://cloud.githubusercontent.com/assets/5563183/23119532/a3146f7e-f793-11e6-947d-c6ef291e689f.gif' title='Video Walkthrough' height="200" alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
