@@ -47,7 +47,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenge: 
+1. The YoutuberPlayer hasn't read the video key by accessing the API.
+2. Spend some time to adjust the layout, but it hasn't been the best as I want.
 
 ## Open-source libraries used
 
